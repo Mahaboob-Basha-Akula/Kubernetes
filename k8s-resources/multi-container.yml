@@ -13,3 +13,13 @@ spec:
   - name: almalinux
     image: almalinux:9
     command: ["sleep", "100"]
+
+
+==========================================
+
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: roboshop
+  labels:
+    name: roboshop-multi
